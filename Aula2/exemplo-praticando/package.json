@@ -1,0 +1,23 @@
+{
+  "name": "exemplo-praticando",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.7",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "express": "^5.0.1"
+  }
+}
