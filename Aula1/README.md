@@ -172,7 +172,7 @@ app.post('/hello', (req, res) => {
 
 O Express é um framework não opinativo, o que significa que ele não impõe uma estrutura específica para a aplicação. Vamos discutir nas próximas aulas como organizar uma aplicação Express de forma eficiente e escalável.
 
-## Praticando
+## Praticando 🚀
 
 Crie uma rota chamada `/tabuada/:numero` que receba um número como parâmetro e retorne a tabuada desse número. Por exemplo, ao acessar a URL `http://localhost:3000/tabuada/7`, o servidor deve responder com o seguinte texto:
 
@@ -188,3 +188,28 @@ Crie uma rota chamada `/tabuada/:numero` que receba um número como parâmetro e
 7 x 9 = 63
 7 x 10 = 70
 ```
+
+## Desafio 🏆
+
+Vamos construir uma API básica para gerenciar uma lista de compras, esses itens ficarão armazenados em um array apenas na memória. A API deve ter as seguintes rotas:
+
+- `GET /compras`: Retorna a lista de compras
+- `POST /compras`: Adiciona um item à lista de compras
+
+O item a ser adicionado deve ser enviado no corpo da requisição como um JSON com a seguinte estrutura:
+
+```json
+{
+  "nome": "Arroz",
+  "quantidade": 2
+}
+```
+
+O item deve ter um nome e uma quantidade. A API deve validar se o nome e a quantidade foram enviados corretamente e retornar um erro caso contrário.
+
+## Referências 📚
+
+- [Node.js](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Express](https://expressjs.com/)

@@ -196,7 +196,17 @@ test('verificarCep 123 é igual a CEP inválido', () => {
 })
 ```
 
-## Praticando
+## Praticando 🚀
 
-1. Crie uma função chamada converterParaHexadecimal que recebe um número inteiro e retorna uma string com a representação hexadecimal desse número. Por exemplo, converterParaHexadecimal(255) deve retornar 'ff'. Escreva testes automatizados para essa função.
+Crie uma função chamada converterParaHexadecimal que recebe um número inteiro e retorna uma string com a representação hexadecimal desse número. Por exemplo, converterParaHexadecimal(255) deve retornar 'ff'. Escreva testes automatizados para essa função.
+
+## Desafio 🏆
+
+Crie uma função chamada calcularIdade que recebe uma data de nascimento (no formato 'dd/mm/aaaa') e retorna a idade da pessoa. Por exemplo, calcularIdade('01/01/2000') deve retornar 25. Escreva testes automatizados para essa função, lembre-se de considerar os casos de borda, como datas futuras e datas inválidas.
+
+## Referências 📚
+
+- [Test Driven Development (TDD) - Devmedia](https://www.devmedia.com.br/test-driven-development-tdd-simples-e-pratico/18533)
+- [Testes automatizados - Alura](https://www.alura.com.br/artigos/testes-automatizados)
+- [Jest - Site oficial](https://jestjs.io/)
 
